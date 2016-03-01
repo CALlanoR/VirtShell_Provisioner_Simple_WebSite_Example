@@ -6,7 +6,7 @@ sudo apt-get install -y nginx
 echo "Creating root directory..."
 sudo mkdir -p /var/www/example.com/public_html
 
-echo "Setting permissions..."
+echo "Setting up permissions..."
 sudo chown -R www-data:www-data /var/www/example.com/public_html
 sudo chmod 755 /var/www
 
